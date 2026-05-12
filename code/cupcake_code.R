@@ -9,7 +9,7 @@ make_cupcake <- function(n_cupcakes = 1) {
   ingredients <- c("flour", "sugar", "milk", "chocolate")
 
   cat("Mixing:", paste(ingredients, collapse = ", "), "\n")
-  cupcakes <- strrep("\U0001F9C1", n_cupcakes)
+  cupcakes <- strrep("\U0001F9C1", 12*n_cupcakes)
   print(paste0("Cupcakes complete! ", cupcakes))
 }
 
